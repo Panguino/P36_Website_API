@@ -1,0 +1,36 @@
+{
+  "name": "p36_website_api",
+  "version": "1.0.0",
+  "description": "Strapi CMS",
+  "scripts": {
+    "dev": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "dependencies": {
+    "@strapi/plugin-graphql": "^4.14.4",
+    "@strapi/plugin-i18n": "4.14.4",
+    "@strapi/plugin-users-permissions": "4.14.4",
+    "@strapi/provider-upload-cloudinary": "^4.15.0",
+    "@strapi/strapi": "4.14.4",
+    "pg": "^8.11.3"
+  },
+  "strapi": {
+    "uuid": "need to find one"
+  },
+  "engines": {
+    "node": "^16",
+    "npm": "8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Panguino/P36_Website_API.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/Panguino/P36_Website_API/issues"
+  },
+  "homepage": "https://github.com/Panguino/P36_Website_API#readme",
+  "license": "MIT"
+}
